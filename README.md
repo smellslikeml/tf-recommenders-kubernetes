@@ -123,7 +123,7 @@ And the server will return something like this:
 
 ```bash
 {
-    "uid": [
+    "user_id": [
         "1"
     ],
     "recommendations": [

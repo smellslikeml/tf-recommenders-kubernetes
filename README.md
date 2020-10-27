@@ -1,4 +1,5 @@
 # TF-Recommenders with Kubernetes
+Example app showcasing how to deploy a TF-Recommenders model in Kubernetes using TFSeving and Flask. Read more about this project in our [blog](https://smellslike.ml/)
 
 ## Requirements
 * [Tensorflow Recommenders](https://github.com/tensorflow/recommenders)

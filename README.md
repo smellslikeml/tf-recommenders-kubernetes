@@ -124,7 +124,7 @@ And the server will return something like this:
 ```bash
 {
     "uid": [
-        "000001fd-95b1-4f9d-9857-041f1c109562"
+        "1"
     ],
     "recommendations": [
         [

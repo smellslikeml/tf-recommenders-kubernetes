@@ -79,7 +79,7 @@ $ docker image ls
 
 REPOSITORY                                TAG                 IMAGE ID            CREATED             SIZE
 recommender-app                           latest              c91ca30f0059        5 minutes ago       2.35GB
-user_model                                latest              57c44fd2fdd0        5 minutes ago       372MB
+user-model                                latest              57c44fd2fdd0        5 minutes ago       372MB
 python                                    3.7                 805aebdf2363        6 days ago          876MB
 k8s.gcr.io/kube-proxy                     v1.19.2             d373dd5a8593        4 weeks ago         118MB
 k8s.gcr.io/kube-apiserver                 v1.19.2             607331163122        4 weeks ago         119MB

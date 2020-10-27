@@ -1,0 +1,5 @@
+annoy
+tensorflow==2.3.0
+tensorflow-serving-api
+flask
+flask-restful

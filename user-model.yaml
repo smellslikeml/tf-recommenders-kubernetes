@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: user-model
+spec:
+  selector:
+    matchLabels:
+      app: user-model
+  template:
+    metadata:
+      labels:
+        app: user-model
+    spec:
+      containers:
+      - name: user-model
+        image: user_model:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8500
+          protocol: TCP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    run: user-model-service
+  name: user-model-service
+spec:
+  ports:
+  - port: 8500
+    protocol: TCP
+    targetPort: 8500
+  selector:
+    app: user-model
+  type: ClusterIP
